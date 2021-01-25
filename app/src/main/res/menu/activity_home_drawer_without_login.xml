@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Cat"
+            android:icon="@drawable/cat"
+            android:title="Find by Category" />
+        <!--<item
+            android:id="@+id/nav_upComing"
+            android:icon="@drawable/upcoming"
+            android:title="Upcoming Movies" />-->
+        <item
+            android:id="@+id/nav_Current"
+            android:icon="@drawable/nowshowing"
+            android:title="Current Movies" />
+        <item
+            android:id="@+id/nav_api"
+            android:icon="@drawable/upcoming"
+            android:title="Featured Movies" />
+        <item
+            android:id="@+id/nav_Register"
+            android:icon="@drawable/reg"
+            android:title="Register" />
+        <item
+            android:id="@+id/nav_Login"
+            android:icon="@drawable/user"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_Contact_Us"
+            android:icon="@drawable/cu"
+            android:title="About Us" />
+    </group>
+
+
+</menu>

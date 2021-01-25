@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.getinn">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".utilities.EFastSaveInit"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.FoodActivity" />
+        <activity android:name=".activities.PaypalPayment" />
+        <activity android:name=".activities.PaymentDetails" />
+        <activity
+            android:name=".activities.ActivityAboutUs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.ActivityBookingDetails" />
+        <activity android:name=".activities.ActivityBookings" />
+        <activity android:name=".activities.ActivityBookingTicket" />
+        <activity
+            android:name=".activities.ActivityProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.ActivityMovieDetail" />
+        <activity android:name=".activities.ActivityMovie" />
+        <activity android:name=".activities.ActivityCategories" />
+        <activity android:name=".activities.MovieActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity
+            android:name=".activities.ActivityHome"
+            android:label="@string/title_activity_ehome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ActivitySplash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ActivitySignup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ActivityLogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+    </application>
+
+</manifest>

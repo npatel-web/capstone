@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Cat"
+            android:icon="@drawable/cat"
+            android:title="Find by Category" />
+        <item
+            android:id="@+id/nav_MyCart"
+            android:icon="@drawable/movie"
+            android:title="All Movies" />
+        <!--<item
+            android:id="@+id/nav_upComing"
+            android:icon="@drawable/upcoming"
+            android:title="Upcoming Movies" />-->
+        <item
+            android:id="@+id/nav_api"
+            android:icon="@drawable/upcoming"
+            android:title="Featured Movies" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/food"
+            android:title="Food" />
+        <item
+            android:id="@+id/nav_MyProfile"
+            android:icon="@drawable/user"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_Orders"
+            android:icon="@drawable/ticket"
+            android:title="My Booked Tickets" />
+        <item
+            android:id="@+id/nav_Contact_Us"
+            android:icon="@drawable/cu"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

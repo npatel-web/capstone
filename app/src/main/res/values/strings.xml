@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">GetInn</string>
+
+    <string name="title_activity_ehome">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="upcoming">Upcoming</string>
+
+    <string-array name="food_menu">
+        <item>Popcorn</item>
+        <item>Truffle Fries</item>
+        <item>Classic Poutine</item>
+        <item>Classic Burger</item>
+        <item>Beyond Meat Burger</item>
+        <item>Pepsi</item>
+        <item>Canada Dry</item>
+        <item>Ice Cream Float</item>
+        <item>Ice Cream Sundae</item>
+        <item>Coco Mocha</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is our regular size popcorn</item>
+        <item>Thin cut deep-fried potatoes topped with truffle oil and some times herbs and spices, garlic cheese, or other toppings</item>
+        <item>It is a Québécois dish made of fresh-cut french fries topped with cheese curds and gravy</item>
+        <item>100% pure beef patty seasoned with just a pinch of salt and pepper, then topped with pickle, onions, ketchup and mustard</item>
+        <item>It is a plant-based patty with onions, lettuce, ketchup and mustard</item>
+        <item>This is our canned Pepsi</item>
+        <item>This is our canned Canada Dry</item>
+        <item>Choose your own ice-cream and drink and we will make it for you</item>
+        <item>Choose your own ice-cream and get one of the sauce topping from chocolate, caramel or strawberry with whip cream, nuts and cherry </item>
+        <item>A regular latte with chocolate syrup added to it.</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>$7.00</item>
+        <item>$8.50</item>
+        <item>$8.50</item>
+        <item>$15.00</item>
+        <item>$15.00</item>
+        <item>$3.50</item>
+        <item>$3.50</item>
+        <item>$6.50</item>
+        <item>$6.50</item>
+        <item>$11.00</item>
+    </string-array>
+
+</resources>
